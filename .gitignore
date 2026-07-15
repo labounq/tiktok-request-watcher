@@ -1,0 +1,9 @@
+﻿*.apk
+*.json
+auto.py
+downloads/
+temp/
+release.keystore
+tiktok-ssl-pinning-bypass-compiled.js
+APKEditor.jar
+uber-apk-signer-1.3.0.jar
