@@ -42,13 +42,7 @@ Your support means a lot, thank you! ❤️
 
 <div align="center">
 
-<!--
-Replace this placeholder with your own screenshots, for example:
-
-![mitmweb showing decrypted TikTok traffic](screenshots/mitmweb-demo.png)
--->
-
-*Screenshots of `mitmweb` displaying decrypted TikTok traffic go here.*
+![mitmweb showing decrypted TikTok traffic](Screenshot.png)
 
 </div>
 
