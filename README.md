@@ -4,25 +4,32 @@
 
 ### See every request TikTok's Android app sends and receives. No root. No Frida CLI.
 
+
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
 [![Releases](https://img.shields.io/badge/Releases-181717?style=for-the-badge&logo=github&logoColor=white)](../../releases)
 [![GPL-3.0](https://img.shields.io/badge/GPL--3.0-blue?style=for-the-badge&logo=gnu&logoColor=white)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Aznannnnls1903l)
 
+
 ### 💬 [Questions or issues? Contact me on Telegram](https://t.me/Aznannnnls1903l)
 
-<div align="center">
 
 ## 🌟 Support the project
 
 **If this project helped you, please consider [starring the repository](../../stargazers).**
 
-Your support means a lot, thank you! ❤️
 
+☕ **Want to support the project even more?**
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/labounq)
+
+<sub>Your support helps keep this project maintained. Thank you! ❤️</sub>
 </div>
+
 </div>
 
 ---
+<br>
 
 ## ✨ Features
 
@@ -37,6 +44,7 @@ Your support means a lot, thank you! ❤️
 | ✅ | No Frida CLI required |
 
 ---
+<br>
 
 ## 📸 Proof it works
 
@@ -45,6 +53,7 @@ Your support means a lot, thank you! ❤️
 ![mitmweb showing decrypted TikTok traffic](Screenshot.png)
 
 </div>
+<br>
 
 ---
 
@@ -59,8 +68,8 @@ Your support means a lot, thank you! ❤️
 > [!NOTE]
 > `patch_apk.py` and `agent.js` are only needed if you want to build your own APK (for example, for a TikTok version not yet available in Releases). If your version is already available, simply download the APK from **Releases** and skip them entirely.
 
-> [!IMPORTANT]
 > `patch_apk.py` requires a **single APK file**. It does **not** support split APKs (`base.apk` + config splits) exported from an Android App Bundle. Merge them first if needed.
+<br>
 
 ---
 
@@ -81,6 +90,8 @@ Your support means a lot, thank you! ❤️
 
 > [!IMPORTANT]
 > Uninstall the original TikTok app before installing the patched APK. Android won't install it over the official version because it is signed with a different key.
+<br>
+<br>
 
 ---
 
@@ -110,8 +121,23 @@ Then launch TikTok.
 | 🚫 No requests appear | Verify your phone and computer are connected to the same Wi-Fi network. |
 | 📡 Other apps work, TikTok doesn't | Reinstall the mitmproxy certificate as an **Android CA certificate**, not just a Wi-Fi certificate. |
 | 📦 "App not installed" | Uninstall the original TikTok app before installing the patched APK. |
-
 ---
+<br>
+
+## 🚀 Want to send your own TikTok requests?
+
+Now that you can inspect TikTok's traffic, you've probably noticed that every request is protected by signatures such as **`X-Gorgon`**, **`X-Argus`**, **`X-Ladon`**, and **`X-Khronos`**.
+
+If you're building a bot, scraper, automation tool, or your own TikTok API client, you'll need to generate valid signatures for every request.
+
+> [!TIP]
+> **Need a production-ready signer?**
+>
+> Generate valid TikTok signatures through the **TikTok Signer API** on RapidAPI:
+>
+> **👉 https://rapidapi.com/labouakileed122/api/tiktok-signer-working**
+---
+<br>
 
 ## 💬 Contact
 
@@ -120,6 +146,7 @@ Questions, issues, or feedback?
 **👉 https://t.me/Aznannnnls1903l**
 
 ---
+<br>
 
 ## ⚖️ Disclaimer
 
@@ -131,16 +158,19 @@ Questions, issues, or feedback?
 > **No warranty is provided. Use at your own risk.**
 
 ---
+<br>
 
 <div align="center">
 
-### ⭐ Enjoyed the project?
+## ❤️ Thanks for checking out the project!
 
-Give it a **star** ⭐ if it helped you!
-
-**[⭐ Star the repo](../../stargazers)** • **[📦 Releases](../../releases)** • **[💬 Telegram](https://t.me/Aznannnnls1903l)**
+If this project saved you time or was useful, you can support its development by starring the repository or buying me a coffee.
 
 <br>
+
+**⭐ [Star the repository](../../stargazers)** • **☕ [Buy me a coffee](https://buymeacoffee.com/labounq)** • **📦 [Releases](../../releases)** • **💬 [Telegram](https://t.me/Aznannnnls1903l)**
+
+</div>
 
 **GPL-3.0 License**
 
